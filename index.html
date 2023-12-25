@@ -7,10 +7,61 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Creative scroll</title>
 	<link rel="stylesheet" href="css/main.css">
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
 	<script src="js/index.js" defer></script>
 </head>
 
-<body>
+<body class="body">
+
+	<div class="scroll-wrap">
+		<div class="scroll-content will-change">
+
+			<header class="hero-section">
+				<img data-speed="0.6" class="hero-img will-change" src="img/hero.png" alt="ALT">
+				<div class="container">
+					<div class="main-header">
+						<h1 class="main-title title">creative scroll</h1>
+					</div>
+				</div>
+			</header>
+
+			<div class="portfolio">
+				<div class="container">
+					<main class="gallery">
+						<div data-speed="0.9" class="gallery__left will-change">
+							<img class="gallery__item" src="img/work/1.jpg" alt="ALT">
+							<img class="gallery__item" src="img/work/2.jpg" alt="ALT">
+							<div class="gallery__item text-block">
+								<h2 class="text-block__title">Creative floating scroll with amazing parallax effect</h2>
+								<p class="text-block__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, facilis
+									eaque.
+									Harum doloremque officiis sunt similique nihil quod alias libero consectetur perferendis nisi maxime
+									enim
+									ullam nam voluptates, vitae nemo.</p>
+							</div>
+							<img class="gallery__item" src="img/work/6.jpg" alt="ALT">
+						</div>
+						<div data-speed="1.2" class="gallery__right will-change">
+							<div class="gallery__item text-block">
+								<h2 class="text-block__title">Creative floating scroll with amazing parallax effect</h2>
+								<p class="text-block__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, facilis
+									eaque.
+									Harum doloremque officiis sunt similique nihil quod alias libero consectetur perferendis nisi maxime
+									enim
+									ullam nam voluptates, vitae nemo.</p>
+							</div>
+							<img class="gallery__item" src="img/work/3.jpg" alt="ALT">
+							<img class="gallery__item" src="img/work/4.jpg" alt="ALT">
+							<img class="gallery__item" src="img/work/5.jpg" alt="ALT">
+						</div>
+					</main>
+				</div>
+			</div>
+
+		</div>
+	</div>
 
 </body>
 
